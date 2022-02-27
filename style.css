@@ -159,3 +159,26 @@ footer p:hover {
 	color: rgb(255, 255, 255);
 }
 
+
+@media screen and (max-width: 640px) {
+	nav .right p {
+		display: none;
+	}
+
+	.presentation .product-presentation h1 {
+		font-size: 2em;
+	}
+	.presentation .image-presentation {
+		display: none;
+	}
+	.first .product-presentation .small-images .small img {
+		width: 90px;
+	}
+
+	footer {
+		justify-content: flex-start;
+	}
+	footer .column {
+		width: 80%;
+	}
+}
